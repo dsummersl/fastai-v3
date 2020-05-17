@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://fastai-ii.s3.amazonaws.com/lesson2.pkl?AWSAccessKeyId=AKIAJR62WRFTR7LGXWHQ&Signature=h2ID8Q6Mfzo44ewIQRTdmX%2BZ7rI%3D&Expires=1589749358'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['shoes', 'feet']
 path = Path(__file__).parent
 
 app = Starlette()
